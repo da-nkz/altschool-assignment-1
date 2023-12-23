@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="author" content="Circle 112 Emmanuel Orhokpoke" />
+    <meta name="description" content="Our first assignment" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First Assignment</title>
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <h1>Daniel Kelechukwu Ogbonna</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#biography">Biography</a></li>
+          <li><a href="index.html#reason">Reason for joining AltSchool</a></li>
+          <li><a href="index.html#goals">My goal in AltSchool</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+    <main>
+      <article>
+        <h2>Application Form</h2>
+        <p>Fill in your Details below:</p>
+
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Personal Information</legend>
+
+            <p>
+              <label for="firstName">First Name *</label>
+              <input
+                type="text"
+                name="firstName"
+                id="firstName"
+                placeholder="Enter your First Name"
+                autofocus
+                required />
+            </p>
+
+            <p>
+              <label for="lastName">Last Name *</label>
+              <input
+                type="text"
+                name="lastName"
+                id="lastName"
+                placeholder="Enter your last Name"
+                required />
+            </p>
+
+            <p>
+              <label for="email">Email *</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your Email"
+                required />
+            </p>
+
+            <p>
+              <label for="telephone">Phone Number *</label>
+              <input
+                type="tel"
+                name="telephone"
+                id="telephone"
+                placeholder="Enter your Phone number"
+                required />
+            </p>
+
+            <p>
+              <label for="dob">Date of Birth *</label>
+              <input type="date" name="dob" id="dob" required />
+            </p>
+          </fieldset>
+          <br />
+          <br />
+
+          <fieldset>
+            <legend>What's Your Gender:</legend>
+            <input type="radio" name="gender" id="male" />
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" />
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="others" />
+            <label for="others">Others</label>
+          </fieldset>
+          <br /><br />
+          <fieldset>
+            <legend>What's your Educational Background:</legend>
+            <input type="checkbox" name="education" id="undergraduate" />
+            <label for="undergraduate">Undergraduate</label>
+            <input type="checkbox" name="education" id="graduate" />
+            <label for="graduate">Graduate</label>
+            <input type="checkbox" name="education" id="postGraduate" />
+            <label for="postGraduate">Post Graduate</label>
+          </fieldset>
+
+          <br />
+          <br />
+
+          <fieldset>
+            <legend>Area of Residence</legend>
+            <p>
+              <label for="country">Country *</label>
+              <select name="country" id="country">
+                <optgroup label="Africa">
+                  <option value="NG">Nigeria</option>
+                  <option value="ZI">Zimbabwe</option>
+                  <option value="SA">South-Africa</option>
+                  <option value="RW">Rwanda</option>
+                </optgroup>
+                <optgroup label="Europe">
+                  <option value="SP">Spain</option>
+                  <option value="UK">United Kingdom</option>
+                  <option value="IT">Italy</option>
+                  <option value="FI">Finland</option>
+                </optgroup>
+              </select>
+            </p>
+
+            <p>
+              <label for="state">State Of Residence *</label>
+              <input
+                type="text"
+                name="state"
+                id="state"
+                placeholder="Enter your State of residence"
+                required />
+            </p>
+          </fieldset>
+          <br />
+          <br />
+          <fieldset>
+            <legend>Employment Status</legend>
+            <p>
+              <label for="employment">Employment Status*</label>
+              <select name="employment" id="employment">
+                <option>Employed</option>
+                <option>Unemployed</option>
+                <option>Student</option>
+                <option>Self Employed</option>
+              </select>
+            </p>
+          </fieldset>
+          <br /><br />
+          <fieldset>
+            <legend>AltSchool Application Information</legend>
+            <p>
+              <label for="school">Choose a School*</label>
+              <select name="school" id="school">
+                <option disabled selected>Choose a school</option>
+                <option>School of Engineering</option>
+                <option>School of Product</option>
+                <option>School of Data</option>
+                <option>School of Creative Economy</option>
+              </select>
+            </p>
+
+            <p>
+              <label for="course">Choose a Course of Study*</label>
+              <select name="course" id="course">
+                <option disabled selected>Choose a course</option>
+                <optgroup label="SOE">
+                  <option value="FE">Front-End Engineering</option>
+                  <option value="BE">Back-End Engineering</option>
+                  <option value="CE">Cloud Engineering</option>
+                </optgroup>
+                <optgroup label="SOP">
+                  <option value="PD">Product Design</option>
+                  <option value="PM">Product Management</option>
+                  <option value="PK">Product Marketing</option>
+                </optgroup>
+                <optgroup label="SOD">
+                  <option value="DA">Data Analysis</option>
+                  <option value="DS">Data Science</option>
+                  <option value="DE">Data Engineering</option>
+                </optgroup>
+                <optgroup label="SOCE">
+                  <option value="CC">Content Creation</option>
+                  <option value="MB">Music Business</option>
+                </optgroup>
+              </select>
+            </p>
+
+            <p>
+              <label for="source">How did you hear about us? *</label>
+              <select name="source" id="source">
+                <option disabled selected>Select Channel</option>
+                <option>Twitter</option>
+                <option>Facebook</option>
+                <option>LinkedIn</option>
+                <option>Youtube</option>
+                <option>Friend</option>
+                <option>WhatsApp</option>
+                <option>Instagram</option>
+                <option>Billboard</option>
+                <option>Other</option>
+              </select>
+            </p>
+
+            <p>
+              <label for="scholarshipCode"
+                >Scholarship/Discount Code (Optional)</label
+              >
+              <input
+                type="text"
+                name="scholarshipCode"
+                id="scholarshipCode"
+                placeholder="Enter your discount code" />
+            </p>
+          </fieldset>
+
+          <p>
+            By clicking continue, I agree to <a href="#">Terms of Use</a> and
+            acknowledge that I have read the <a href="#">Privacy Policy</a>.
+          </p>
+
+          <p><button type="submit">Proceed</button></p>
+        </form>
+      </article>
+
+      <p>Already have an account? <a href="#">Sign In</a></p>
+    </main>
+
+    <hr />
+
+    <footer>
+      <p><a href="index.html">Back to home</a></p>
+      <p>
+        &copy;<a href="index.html">Daniel Kelechukwu Ogbonna</a> 
+      </p>
+    </footer>
+  </body>
+</html>
